@@ -10,7 +10,7 @@ const initialState={
   notification:false,
 }
 export const ContextProvider=({children})=>{
-const [activeMenu, setactiveMenu] = useState(true);
+const [activeMenu, setActiveMenu] = useState(true);
 const [isClicked, setIsClicked] =useState(initialState)
 const [screenSize, setScreenSize]=useState(undefined)
 const [currentColor,setCurrentColor]=useState('#03C9D7')
@@ -37,7 +37,7 @@ const handleClick=(clicked)=>{
 <StateContext.Provider
 value={{
   activeMenu,
-  setactiveMenu,
+  setActiveMenu,
   isClicked,
   setIsClicked,
   handleClick,

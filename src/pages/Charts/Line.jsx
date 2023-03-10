@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, LineChart } from '../../components';
+import { ChartsHeader, LineChart } from '../../components';
 
 
 const Line = () => {
@@ -13,4 +13,4 @@ const Line = () => {
   )
 }
 
-export default Line
+export default Line;
